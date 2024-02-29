@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+        <title>ATIVIDADE</title>
+    <style>
+        *{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h1{text-decoration: wavy;
+}
+.box{border-style: solid;
+border-width: 2px;
+border-width:10px,10px;
+margin-top: 0%;
+margin-bottom: 0%;
+
+}
+
+ .conteiner{
+    display:flex;
+    flex-wrap: wrap;
+ }
+ #titulo1{
+
+    width: 70%;
+    background-color: lightgray;
+    
+ }
+#titulo2{
+    width:29%;
+    background-color: lightgray;
+}
+#linha{
+    width: 98.9%;
+    text-align: left;
+    padding-left:5px ;
+}
+    </style>
+</head>
+    <body>
+        <div class="conteiner">
+
+            <div class="box" id="titulo1">
+                <h1 >Componente curricular: Artes 1</h1>
+            </div>
+
+            <div class="box" id="titulo2">
+                <h1 >Créditos: 1</h1>
+            </div>
+
+            <div class="box" id="linha" >
+                <p ><b>Carga horária: Total</b> (40 h/a - 30h/r)   <b>AT</b>  (40 h/a - 30h/r)   <b>AP</b> ( )</p>
+            </div>
+
+            <div class="box" id="linha">
+                <p><b>Ementa:</b>.<br>
+                    Produções artísticas e culturais considerando suas características locais, regionais e globais.<br>
+                    Linguagens artísticas para dar significado e (re)construir produções autorais individuais e coletivas,
+                    de maneira crítica e criativa, com respeito à diversidade de saberes, identidades e culturas,<br>
+                    incluindo-se as culturas afro-brasileira e indígena.</p>
+            </div>
+            <div class="box" id="linha">
+                <p><b>Referências Básicas:</b>.<br>
+                    
+                    GOMBRICH, E. H. História da Arte. São Paulo: LTC, 2000.
+                    GOMPERTZ, W. Isso é arte? Rio de Janeiro: Zahar, 2013.
+                    ARGAN, G. C. Arte Moderna. São Paulo: Companhia das Letras, 2006.</p>
+            </div>
+
+            <div class="box" id="linha">
+                <p><b>Referências Complementares:</b>.<br>
+                    
+                    ARCHER, M. Arte contemporânea uma história concisa. São Paulo: WMF Martins Fontes,
+                    2012..
+                    GULLAR, F. Argumentação Contra a Morte da Arte. Rio de Janeiro: REVAN, 2009.
+                    FISCHER, E. A necessidade da arte. 9. ed. Rio de Janeiro: LTC, 1987.
+                    GONCALVES, M. A. 1922 A Semana que não terminou. São Paulo: Companhia das Letras, 2012.
+                    VAN GOGH, V., 1853 – 1890. Cartas a Théo.; tradução de Pierre Ruprecht. Porto Alegre: L&PM,
+                    2012.       
+                    </p>
+            </div>
+        </div>
+    </body>
+</html>
